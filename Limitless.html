@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Limitless</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/
+smoothness/jquery-ui.css">
+    <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.css">
+
+    <!-- <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/
+libs/jqueryui/1.10.4/jquery-ui.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js"></script>
+</head>
+
+<body>
+    <div id="root">
+        <div class="tabs">
+            <ul>
+                <!-- Tabs for each task -->
+                <li :class="toShow == 'home' ? 'is-active':''"><a @click="toShow = 'home'">Home</a></li>
+                <li :class="toShow == 'projects' ? 'is-active':''"><a @click="toShow = 'projects'">Projects</a></li>
+                <li :class="toShow == 'blog' ? 'is-active':''"><a @click="toShow = 'blog'">Blog</a></li>
+            </ul>
+        </div>
+
+        <div class="tabContainer">
+            <!-- Home tab -->
+            <div class="tabContent" id="home" v-if="toShow == 'home'">
+                <p style="font-size: 24px; text-align: center"><b>Welcome to my blog! :)</b></p>
+                </br>
+                <img src="profilepic.jpg" alt="profilepic" id="profilepic"></img>
+                <article class="message is-info">
+                    <div class="message-body">
+                        Hey there, my name is Jeremy and I'm from Sydney, Australia!
+                        I'm currently studying Commerce/Computer Science at UNSW.
+                        My hobbies include: Pokemon, photography, tennis, pool and coding!
+                        This will be my blog to showcase my programming journey
+                        and I hope everyone can watch me embark on a never-ending quest
+                        for knowledge! :)
+                    </div>
+                </article>
+            </div>
+
+            <!-- Projects tab -->
+            <div class="tabContent" id="projects" v-if="toShow == 'projects'">
+                <div v-for="project in projectList">
+                    <a href="https://ulquiorra-tcg.herokuapp.com" target="_blank"><img v-bind:src="project.img"/></img></a>
+                    </br>
+                    </br> {{ project.name }}
+                </div>
+            </div>
+
+            <!-- Blog tab -->
+            <div class="tabContent" id="blog" v-if="toShow == 'blog'">
+                <article id="blogPost" v-bind:class="getClass(post.id)" class="message" v-for="post in blogPosts">
+                    <b>{{ post.title}}</b>
+                    <p style="float: right">{{ post.date }}</p>
+                    <div class="message-body" v-html="post.text">
+                    </div>
+                </article>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+<html>
