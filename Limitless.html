@@ -46,15 +46,16 @@ libs/jqueryui/1.10.4/jquery-ui.min.js"></script> -->
             <!-- Projects tab -->
             <div class="tabContent" id="projects" v-if="toShow == 'projects'">
                 <div v-for="project in projectList">
-                    <a href="project.link" target="_blank"><img v-bind:src="project.img"/></img></a>
+                    <a :href="project.link" target="_blank"><img :src="project.img"/></img></a>
                     </br>
                     </br> {{ project.name }}
+                    </br>
                 </div>
             </div>
 
             <!-- Blog tab -->
             <div class="tabContent" id="blog" v-if="toShow == 'blog'">
-                <article id="blogPost" v-bind:class="getClass(post.id)" class="message" v-for="post in blogPosts">
+                <article id="blogPost" :class="getClass(post.id)" class="message" v-for="post in blogPosts">
                     <b>{{ post.title}}</b>
                     <p style="float: right">{{ post.date }}</p>
                     <div class="message-body" v-html="post.text">
