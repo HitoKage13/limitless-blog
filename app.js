@@ -9,9 +9,10 @@ class Post {
 };
 
 class Project {
-    constructor(name, dateStarted, img, description, languages) {
+    constructor(name, dateStarted, contributors, img, description, languages) {
         this.name = name;
         this.dateStarted = dateStarted;
+        this.contributors = contributors;
         this.img = img;
         this.description = description;
         this.languages = languages;
@@ -29,8 +30,11 @@ var app = new Vue({
         blogColours: ["is-dark","is-primary","is-link","is-info","is-success",
         "is-warning","is-danger"],
         projectList: [
-            new Project("UlquiorraTCG: Pokemon Blog","21/01/19",
-            "pokeball.png",``,["HTML","CSS","JavaScript","Vue","Bulma"])
+            new Project("UlquiorraTCG: Pokemon Blog","21/01/19","Jeremy Lim",
+            "src/assets/pokeball.png",``,["HTML","CSS","JavaScript","Vue","Bulma"]),
+            new Project("Vuetify-Abstractified: Vue Framework","26/01/19",
+            "Mark Sonn, Max Caminer, Jeremy Lim","src/assets/vuetify.png",``,
+            ["HTML","CSS","JavaScript","Vue","Vuetify"])
         ],
         blogPosts: [new Post(0,"22/01/19","Launch",`I am planning on
         launching a trifecta of blogs and you must be wondering:
