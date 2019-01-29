@@ -53,7 +53,7 @@ var app = new Vue({
         they wanted to provide. However, this rejection had been a highlight to my front-end
         discoveries, instead allowing me to gain valuable experience in JavaScript and Vue.
         It's not an over-exaggeration to say I learnt everything I had to do in the time
-        limit of the technical interview, but it was nice for me to be able to confidently
+        limit of the technical interview, but it was nice for me to now be able to confidently
         explain what v-bind, props and to not waste an hour forgetting to add a colon before an element.
         </br> </br> The aftermath of my technical interview brought me new skills to
         tackle the experience programmers glorify: projects! I decided to progress
