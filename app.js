@@ -48,11 +48,11 @@ var app = new Vue({
         </br> </br> My holidays would have been very dull if I had not taken the
         initiatives to learn a bit of front-end web development or applied for multiple
         internships and jobs. My 4-hour technical interview, in a company I wanted to work for,
-        ended in a rejection I probably saw coming from a mile away. It wasn’t my lack
+        ended in a rejection I probably saw coming from a mile away. It wasn't my lack
         of self-confidence, but I believed I was simply underprepared for the role
         they wanted to provide. However, this rejection had been a highlight to my front-end discoveries,
         instead allowing me to gain valuable experience in JavaScript and Vue.
-        It’s not an over-exaggeration to say I learnt everything I had to do in the time
+        It's not an over-exaggeration to say I learnt everything I had to do in the time
         limit of the technical interview, but it was nice for me to be able to confidently
         explain what v-bind, props and to not waste an hour forgetting to add a colon before an element.
         </br> </br> The aftermath of my technical interview brought me new skills to
@@ -60,7 +60,7 @@ var app = new Vue({
         past JavaScript to learn Vue mainly because one of my Social Subcommittee
         Directors invited me to help collaborate on a front-end project alongside another acquaintance.
         So far, I am learning more and more about Vue with each component I create
-        for the project (I would use the phrase ‘gaining momentum’ for this).
+        for the project (I would use the phrase 'gaining momentum' for this).
         In hindsight, this development has been the result of my internship
         rejection; so hard feelings! :)
         </br> - Jeremy
