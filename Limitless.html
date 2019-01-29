@@ -46,7 +46,7 @@ libs/jqueryui/1.10.4/jquery-ui.min.js"></script> -->
             <!-- Projects tab -->
             <div class="tabContent" id="projects" v-if="toShow == 'projects'">
                 <div v-for="project in projectList">
-                    <a href="https://ulquiorra-tcg.herokuapp.com" target="_blank"><img v-bind:src="project.img"/></img></a>
+                    <a href="project.link" target="_blank"><img v-bind:src="project.img"/></img></a>
                     </br>
                     </br> {{ project.name }}
                 </div>
