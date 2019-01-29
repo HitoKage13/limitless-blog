@@ -50,8 +50,8 @@ var app = new Vue({
         internships and jobs. My 4-hour technical interview, in a company I wanted to work for,
         ended in a rejection I probably saw coming from a mile away. It wasn't my lack
         of self-confidence, but I believed I was simply underprepared for the role
-        they wanted to provide. However, this rejection had been a highlight to my front-end discoveries,
-        instead allowing me to gain valuable experience in JavaScript and Vue.
+        they wanted to provide. However, this rejection had been a highlight to my front-end
+        discoveries, instead allowing me to gain valuable experience in JavaScript and Vue.
         It's not an over-exaggeration to say I learnt everything I had to do in the time
         limit of the technical interview, but it was nice for me to be able to confidently
         explain what v-bind, props and to not waste an hour forgetting to add a colon before an element.
