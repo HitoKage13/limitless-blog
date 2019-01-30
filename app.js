@@ -39,18 +39,23 @@ var app = new Vue({
             "https://ulquiorra-tcg.herokuapp.com")
         ],
         blogPosts: [new Post(1,"29/01/19","Vue-ing Opportunities and Challenges",`
-        If someone asked me how 2019 has been going for me thus far, I could respond back
-        with a word that encapsulates what the year has become for me: <b>Discovery</b>.
+        If someone asked me how 2019 has been going for me thus far, I would respond back
+        with a word that encapsulated what the year has become for me: <b>Discovery</b>.
         </br> </br> What had been a word that plagued and demonised my HSC English studies,
         has now become the definition of how I am approaching 2019. Weirdly enough,
         I am experiencing the same ordeals and pains of the titular character
-        in Life of Pi in order to discover, although not literally.
+        in Life of Pi in order to discover, although not literally. A year of not
+        writing for myself has also dulled my ability to express my thoughts
+        in words as fluently as I am capable of. Updating my blog would allow me
+        to 'relearn' the skill of articulation; almost regretting not listening
+        in HSC English, but gone are the days of analysing Shakespeare and
+        deciphering movie tropes and thematics.
         </br> </br> My holidays would have been very dull if I had not taken the
         initiatives to learn a bit of front-end web development or applied for multiple
         internships and jobs. My 4-hour technical interview, in a company I wanted to work for,
         ended in a rejection I probably saw coming from a mile away. It wasn't my lack
         of self-confidence, but I believed I was simply underprepared for the role
-        they wanted to provide. However, this rejection had been a highlight to my front-end
+        they were providing. However, this rejection had been a highlight to my front-end
         discoveries, instead allowing me to gain valuable experience in JavaScript and Vue.
         It's not an over-exaggeration to say I learnt everything I had to do in the time
         limit of the technical interview, but it was nice for me to now be able to confidently
