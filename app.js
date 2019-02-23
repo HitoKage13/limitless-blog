@@ -67,7 +67,7 @@ var app = new Vue({
         So far, I am learning more and more about Vue with each component I create
         for the project (I would use the phrase 'gaining momentum' for this).
         In hindsight, this development has been the result of my internship
-        rejection; so hard feelings! :)
+        rejection; so no hard feelings! :)
         </br> - Jeremy
         `, ["Projects"]),
         new Post(0,"22/01/19","Launch",`
