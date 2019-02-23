@@ -22,6 +22,19 @@
     height: 25px;
 }
 
+#welcome {
+    color: white;
+    position: relative;
+    top: -120px;
+    font-size: 24px;
+    text-align: center;
+}
+
+#index {
+    width: 1450px;
+    height: 600px;
+}
+
 .card {
     box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
     max-width: 124px;
